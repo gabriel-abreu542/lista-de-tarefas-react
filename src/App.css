@@ -1,0 +1,51 @@
+@import "./index.css";
+
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 10px;
+    background-color: var(--background-color);
+}
+
+.title {
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+
+.list-group{
+    color: var(--primary-text-color);
+    font-size: large;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--foreground-color);
+    color: var(--secondary-text-color)
+}
+
+.input{
+    position: relative;
+}
+
+.button{
+    position: relative;
+    height: 1.75em;
+    width: 5em;
+    color: var(--primary-text-color);
+    background-color: var(--button-color);
+    
+}
+
+#input-task{
+    width: 25em;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+}
+
