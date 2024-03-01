@@ -14,6 +14,7 @@ function ListGroup({ items, heading }: Props) {
         {items.map((item) => (
           <li>
             <Checkbox label={item} />
+            <Button label="Remove" onClick={() => console.log("aa")}></Button>
           </li>
         ))}
       </ul>
