@@ -30,8 +30,10 @@
     color: var(--secondary-text-color)
 }
 
-.input{
-    position: relative;
+.input {
+    display: flex; 
+    justify-content: baseline; 
+    align-items: center; 
 }
 
 .button{
